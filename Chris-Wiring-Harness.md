@@ -85,4 +85,4 @@ One 42 Pin Deutsch Connectors
 |   39  |   Fuel +5v   |         ???        |                                          |
 |   40  |   Fuel GND   |         ???        |                                          |
 |   41  |  Fuel Signal |         ???        |                                          |
-|       |              |                    |                                          |
+|   42  |      N/C     |                    |                                          |
