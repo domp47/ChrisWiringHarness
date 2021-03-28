@@ -4,33 +4,32 @@
 
 Two 12 pin Deutsch Connectors 
 
-### Driver's Side Connector
+### Ignition Connector
 
 | Pin # | Description |     Color    |                          Note                          |
 |:-----:|:-----------:|:------------:|:------------------------------------------------------:|
 |   1   |    IGN 1    |      Y/B     |                                                        |
-|   2   |    IGN 3    |      Y/O     |                                                        |
-|   3   |    IGN 5    |     Y/BR     |                                                        |
-|   4   |    IGN 7    |      Y/V     |                                                        |
-|   5   |  Signal GND |      B/W     |    Need to double check this is just one connection    |
-|   6   |  Relay 12v  |      R/Y     | Need to double check this is actually going to the ECU |
-|   7   | WB1 Heater+ |     Grey     |                                                        |
-|   8   | WB1 Heater- |     White    |                                                        |
-|   9   |   WB1 Cell  | Black/ White |                                                        |
-|   10  |   WB1 Comm  |    Yellow    |                                                        |
-|   11  |   WB1 Pump  |  Red/ White  |                                                        |
+|   2   |    IGN 2    |      Y/R     |                                                        |
+|   3   |    IGN 3    |      Y/O     |                                                        |
+|   4   |    IGN 4    |      Y/G     |                                                        |
+|   5   |    IGN 5    |      Y/BR    |                                                        |
+|   6   |    IGN 6    |      Y/L     |                                                        |
+|   7   |    IGN 7    |      Y/V     |                                                        |
+|   8   |    IGN 8    |      Y/GY    |                                                        |
+|   9   |  Signal GND | Black/ White |                                                        |
+|   10  |  Relay 12v  |  Red/ Yellow |                                                        |
+|   11  |     N/C     |              |                                                        |
 |   12  |     N/C     |              |                                                        |
 
-### Passenger Bank
+### Wideband Connector
 
 | Pin # | Description |     Color    |                          Note                          |
 |:-----:|:-----------:|:------------:|:------------------------------------------------------:|
-|   1   |    IGN 2    |      Y/R     |                                                        |
-|   2   |    IGN 4    |      Y/G     |                                                        |
-|   3   |    IGN 6    |      Y/L     |                                                        |
-|   4   |    IGN 8    |     Y/GY     |                                                        |
-|   5   |  Signal GND |      B/W     |    Need to double check this is just one connection    |
-|   6   |  Relay 12v  |      R/Y     | Need to double check this is actually going to the ECU |
+|   2   | WB1 Heater+ |     Grey     |                                                        |
+|   3   | WB1 Heater- |     White    |                                                        |
+|   4   |   WB1 Cell  | Black/ White |                                                        |
+|   5   |   WB1 Comm  |    Yellow    |                                                        |
+|   6   |   WB1 Pump  |  Red/ White  |                                                        |
 |   7   | WB2 Heater+ |     Grey     |                                                        |
 |   8   | WB2 Heater- |     White    |                                                        |
 |   9   |   WB2 Cell  | Black/ White |                                                        |
@@ -40,49 +39,48 @@ Two 12 pin Deutsch Connectors
 
 ## Main Harness
 
-One 42 Pin Deutsch Connectors
+One 41 Pin Deutsch Connector
 
-| Pin # |  Description |        Color       |                   Note                   |
-|:-----:|:------------:|:------------------:|:----------------------------------------:|
-|   1   |    TPS +5v   |       Orange       |                                          |
-|   2   |    TPS GND   |    Black/ White    |                                          |
-|   3   |  TPS Signal  |        White       |                                          |
-|   4   | Crank Signal |       Yellow       | Need To verify with type of Crank Sensor |
-|   5   |    Crank +   |         Red        |                                          |
-|   6   |   Crank GND  |        Blue        |                                          |
-|   7   |  Cam Signal  |       Yellow       |  Need to verify with type of cam sensor  |
-|   8   |     Cam +    |         Red        |                                          |
-|   9   |    Cam GND   |        Blue        |                                          |
-|   10  |  INJ 1-8 12v |   Red/ Light Blue  |                                          |
-|   11  |     INJ 1    |     Light Blue     |                                          |
-|   12  |     INJ 2    |  Light Blue/ Black |                                          |
-|   13  |     INJ 3    |  Light Blue/ Brown |                                          |
-|   14  |     INJ 4    |   Light Blue/ Red  |                                          |
-|   15  |     INJ 5    | Light Blue/ Orange |                                          |
-|   16  |     INJ 6    | Light Blue/ Yellow |                                          |
-|   17  |     INJ 7    |  Light Blue/ Green |                                          |
-|   18  |     INJ 8    | Light Blue/ Violet |                                          |
-|   19  | INJ 9-16 12v |   Red/ Light Blue  |                                          |
-|   20  |     INJ 9    |     Light Blue     |                                          |
-|   21  |    INJ 10    |  Light Blue/ Black |                                          |
-|   22  |    INJ 11    |  Light Blue/ Brown |                                          |
-|   23  |    INJ 12    |   Light Blue/ Red  |                                          |
-|   24  |    INJ 13    | Light Blue/ Orange |                                          |
-|   25  |    INJ 14    | Light Blue/ Yellow |                                          |
-|   26  |    INJ 15    |  Light Blue/ Green |                                          |
-|   27  |    INJ 16    | Light Blue/ Violet |                                          |
-|   28  |    D/S GND   |    Black/ White    |                                          |
-|   29  |    D/S +8v   |    Orange/ White   |                                          |
-|   30  |  D/S Signal  |     Grey/ black    |                                          |
-|   31  |    MAP +5    |         ???        |                                          |
-|   32  |    MAP GND   |         ???        |                                          |
-|   33  |  MAP Signal  |         ???        |                                          |
-|   34  |    IAT GND   |         ???        |                                          |
-|   35  |  IAT Signal  |         ???        |                                          |
-|   36  |    Oil +5v   |         ???        |                                          |
-|   37  |    Oil GND   |         ???        |                                          |
-|   38  |  Oil Signal  |         ???        |                                          |
-|   39  |   Fuel +5v   |         ???        |                                          |
-|   40  |   Fuel GND   |         ???        |                                          |
-|   41  |  Fuel Signal |         ???        |                                          |
-|   42  |      N/C     |                    |                                          |
+| Pin # |     Description    |        Color       | Size | Note |
+|:-----:|:------------------:|:------------------:|:----:|------|
+|   A   |       TPS +5v      |       Orange       |  20  |      |
+|   B   |       TPS GND      |    Black/ White    |  20  |      |
+|   C   |     TPS Signal     |        White       |  20  |      |
+|   D   |       Crank +      |       Yellow       |  20  |      |
+|   E   |       Crank -      |        Green       |  20  |      |
+|   F   |        Cam +       |       Yellow       |  20  |      |
+|   G   |        Cam -       |        Green       |  20  |      |
+|   H   |   Trans Brake GND  |         ???        |  20  |      |
+|   J   |   Trans Brake 12v  |         ???        |  20  |      |
+|   K   | Trans Brake Signal |         ???        |  20  |      |
+|   L   |       Map +5v      |         ???        |  20  |      |
+|   M   |       Map GND      |         ???        |  20  |      |
+|   N   |     Map Signal     |         ???        |  20  |      |
+|   P   |       IAT GND      |         ???        |  20  |      |
+|   R   |     IAT Signal     |         ???        |  20  |      |
+|   S   |       Oil +5v      |         ???        |  20  |      |
+|   T   |       Oil GND      |         ???        |  20  |      |
+|   U   |     Oil Signal     |         ???        |  20  |      |
+|   V   |      Fuel +5v      |         ???        |  20  |      |
+|   W   |      Fuel GND      |         ???        |  20  |      |
+|   X   |     Fuel Signal    |         ???        |  20  |      |
+|   Y   |         N/C        |                    |  20  |      |
+|   Z   |     INJ 1-8 12v    |   Red/ Light Blue  |  16  |      |
+|   a   |    INJ 9-16 12v    |   Red/ Light Blue  |  16  |      |
+|   b   |        INJ 1       |     Light Blue     |  20  |      |
+|   c   |        INJ 2       |  Light Blue/ Black |  16  |      |
+|   d   |        INJ 3       |  Light Blue/ Brown |  20  |      |
+|   e   |        INJ 4       |   Light Blue/ Red  |  16  |      |
+|   f   |        INJ 5       | Light Blue/ Orange |  20  |      |
+|   g   |        INJ 6       | Light Blue/ Yellow |  16  |      |
+|   h   |        INJ 7       |  Light Blue/ Green |  20  |      |
+|   i   |        INJ 8       | Light Blue/ Violet |  16  |      |
+|   j   |        INJ 9       |     Light Blue     |  20  |      |
+|   k   |       INJ 10       |  Light Blue/ Black |  16  |      |
+|   m   |       INJ 11       |  Light Blue/ Brown |  16  |      |
+|   n   |       INJ 12       |   Light Blue/ Red  |  16  |      |
+|   p   |       INJ 13       | Light Blue/ Orange |  16  |      |
+|   q   |       INJ 14       | Light Blue/ Yellow |  16  |      |
+|   r   |       INJ 15       |  Light Blue/ Green |  16  |      |
+|   s   |       INJ 16       | Light Blue/ Violet |  16  |      |
+|   t   |         N/C        |                    |  16  |      |
