@@ -19,30 +19,31 @@ Two 12 pin Deutsch Connectors
 |   J   |  Signal GND |    Black/ White    |  16  |                                                      |
 |   K   |     N/C     |                    |  16  |                                                      |
 |   L   |  Relay 12v  |     Red/ White     |  16  |                                                      |
-|   M   |     N/C     |                    |  16  |______________________________________________________|
+|   M   |     N/C     |                    |  16  | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 
 ### Wideband Connector
 
-| Pin # | Description |     Color    |                          Note                          |
-|:-----:|:-----------:|:------------:|:------------------------------------------------------:|
-|   2   | WB1 Heater+ |     Grey     |                                                        |
-|   3   | WB1 Heater- |     White    |                                                        |
-|   4   |   WB1 Cell  | Black/ White |                                                        |
-|   5   |   WB1 Comm  |    Yellow    |                                                        |
-|   6   |   WB1 Pump  |  Red/ White  |                                                        |
-|   7   | WB2 Heater+ |     Grey     |                                                        |
-|   8   | WB2 Heater- |     White    |                                                        |
-|   9   |   WB2 Cell  | Black/ White |                                                        |
-|   10  |   WB2 Comm  |    Yellow    |                                                        |
-|   11  |   WB2 Pump  |  Red/ White  |                                                        |
-|   12  |     N/C     |              |                                                        |
+| Pin # |  Description |     Color    | Size | Note |
+|:-----:|:------------:|:------------:|:----:|:----:|
+|   A   |   WB1 Comm   |    Yellow    |  20  |      |
+|   B   |   WB1 Pump   |  Red/ White  |  20  |      |
+|   C   |      N/C     |              |  20  |      |
+|   D   |   WB2 Cell   | Black/ White |  20  |      |
+|   E   |   WB2 Comm   |    Yellow    |  20  |      |
+|   F   |   WB2 Pump   |  Red/ White  |  20  |      |
+|   G   |      N/C     |              |  20  |      |
+|   H   |   WB1 Cell   | Black/ White |  20  |      |
+|   J   | WB1 Heater + |     Grey     |  16  |      |
+|   K   | WB1 Heater - |     White    |  16  |      |
+|   L   | WB2 Heater + |     Grey     |  16  |      |
+|   M   | WB2 Heater - |     White    |  16  | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 
 ## Main Harness
 
 One 41 Pin Deutsch Connector
 
 | Pin # |     Description    |        Color       | Size | Note |
-|:-----:|:------------------:|:------------------:|:----:|------|
+|:-----:|:------------------:|:------------------:|:----:|:----:|
 |   A   |       TPS +5v      |       Orange       |  20  |      |
 |   B   |       TPS GND      |    Black/ White    |  20  |      |
 |   C   |     TPS Signal     |        White       |  20  |      |
@@ -83,4 +84,4 @@ One 41 Pin Deutsch Connector
 |   q   |       INJ 14       | Light Blue/ Yellow |  16  |      |
 |   r   |       INJ 15       |  Light Blue/ Green |  16  |      |
 |   s   |       INJ 16       | Light Blue/ Violet |  16  |      |
-|   t   |  Starter Solenoid  |       Gray         |  16  |      |
+|   t   |  Starter Solenoid  |       Gray         |  16  | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
