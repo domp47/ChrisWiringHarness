@@ -53,17 +53,17 @@ One 41 Pin Deutsch Connector
 |   H   |   Trans Brake GND  |         ???        |  20  |      |
 |   J   |   Trans Brake 12v  |         ???        |  20  |      |
 |   K   | Trans Brake Signal |         ???        |  20  |      |
-|   L   |       Map +5v      |         ???        |  20  |      |
-|   M   |       Map GND      |         ???        |  20  |      |
-|   N   |     Map Signal     |         ???        |  20  |      |
-|   P   |       IAT GND      |         ???        |  20  |      |
-|   R   |     IAT Signal     |         ???        |  20  |      |
-|   S   |       Oil +5v      |         ???        |  20  |      |
-|   T   |       Oil GND      |         ???        |  20  |      |
-|   U   |     Oil Signal     |         ???        |  20  |      |
-|   V   |      Fuel +5v      |         ???        |  20  |      |
-|   W   |      Fuel GND      |         ???        |  20  |      |
-|   X   |     Fuel Signal    |         ???        |  20  |      |
+|   L   |       Map +5v      |       Orange       |  20  |      |
+|   M   |       Map GND      |    Black/ White    |  20  |      |
+|   N   |     Map Signal     |       Yellow       |  20  |      |
+|   P   |       IAT GND      |    Black/ White    |  20  |      |
+|   R   |     IAT Signal     |     Light Gray     |  20  |      |
+|   S   |       Oil +5v      |       Orange       |  20  |      |
+|   T   |       Oil GND      |    Black/ White    |  20  |      |
+|   U   |     Oil Signal     |   Orange/ Yellow   |  20  |      |
+|   V   |      Fuel +5v      |       Orange       |  20  |      |
+|   W   |      Fuel GND      |    Black/ White    |  20  |      |
+|   X   |     Fuel Signal    |     Orange/Red     |  20  |      |
 |   Y   |         N/C        |                    |  20  |      |
 |   Z   |     INJ 1-8 12v    |   Red/ Light Blue  |  16  |      |
 |   a   |    INJ 9-16 12v    |   Red/ Light Blue  |  16  |      |
@@ -83,4 +83,4 @@ One 41 Pin Deutsch Connector
 |   q   |       INJ 14       | Light Blue/ Yellow |  16  |      |
 |   r   |       INJ 15       |  Light Blue/ Green |  16  |      |
 |   s   |       INJ 16       | Light Blue/ Violet |  16  |      |
-|   t   |         N/C        |                    |  16  |      |
+|   t   |  Starter Solenoid  |       Gray         |  16  |      |
