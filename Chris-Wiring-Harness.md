@@ -6,20 +6,20 @@ Two 12 pin Deutsch Connectors
 
 ### Ignition Connector
 
-| Pin # | Description |     Color    |                          Note                          |
-|:-----:|:-----------:|:------------:|:------------------------------------------------------:|
-|   1   |    IGN 1    |      Y/B     |                                                        |
-|   2   |    IGN 2    |      Y/R     |                                                        |
-|   3   |    IGN 3    |      Y/O     |                                                        |
-|   4   |    IGN 4    |      Y/G     |                                                        |
-|   5   |    IGN 5    |      Y/BR    |                                                        |
-|   6   |    IGN 6    |      Y/L     |                                                        |
-|   7   |    IGN 7    |      Y/V     |                                                        |
-|   8   |    IGN 8    |      Y/GY    |                                                        |
-|   9   |  Signal GND | Black/ White |                                                        |
-|   10  |  Relay 12v  |  Red/ Yellow |                                                        |
-|   11  |     N/C     |              |                                                        |
-|   12  |     N/C     |              |                                                        |
+| Pin # | Description |        Color       | Size |                        Note                          |
+|:-----:|:-----------:|:------------------:|:----:|:----------------------------------------------------:|
+|   A   |    IGN 1    |    Yellow/ Black   |  20  |                                                      |
+|   B   |    IGN 2    |     Yellow/ Red    |  20  |                                                      |
+|   C   |    IGN 3    |   Yellow/ Orange   |  20  |                                                      |
+|   D   |    IGN 4    |    Yellow/ Green   |  20  |                                                      |
+|   E   |    IGN 5    |    Yellow/ Brown   |  20  |                                                      |
+|   F   |    IGN 6    | Yellow/ Light Blue |  20  |                                                      |
+|   G   |    IGN 7    |   Yellow/ Violet   |  20  |                                                      |
+|   H   |    IGN 8    |    Yellow/ Gray    |  20  |                                                      |
+|   J   |  Signal GND |    Black/ White    |  16  |                                                      |
+|   K   |     N/C     |                    |  16  |                                                      |
+|   L   |  Relay 12v  |     Red/ White     |  16  |                                                      |
+|   M   |     N/C     |                    |  16  |______________________________________________________|
 
 ### Wideband Connector
 
