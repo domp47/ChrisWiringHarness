@@ -1,6 +1,6 @@
 # Chris' Wiring Harness Firewall Connections
 
-## Coil/ O2 Harness
+## Coil Harness
 
 Two 12 pin Deutsch Connectors 
 
@@ -8,14 +8,14 @@ Two 12 pin Deutsch Connectors
 
 | Pin # | Description |        Color       | Size |                        Note                          |
 |:-----:|:-----------:|:------------------:|:----:|:----------------------------------------------------:|
-|   A   |    IGN 1    |    Yellow/ Black   |  20  |                                                      |
-|   B   |    IGN 2    |     Yellow/ Red    |  20  |                                                      |
-|   C   |    IGN 3    |   Yellow/ Orange   |  20  |                                                      |
+|   A   |    IGN 3    |   Yellow/ Orange   |  20  |                                                      |
+|   B   |    IGN 1    |    Yellow/ Black   |  20  |                                                      |
+|   C   |    IGN 2    |   Yellow/ Red      |  20  |                                                      |
 |   D   |    IGN 4    |    Yellow/ Green   |  20  |                                                      |
-|   E   |    IGN 5    |    Yellow/ Brown   |  20  |                                                      |
-|   F   |    IGN 6    | Yellow/ Light Blue |  20  |                                                      |
+|   E   |    IGN 6    | Yellow/ Light Blue |  20  |                                                      |
+|   F   |    IGN 8    |   Yellow/ Grey     |  20  |                                                      |
 |   G   |    IGN 7    |   Yellow/ Violet   |  20  |                                                      |
-|   H   |    IGN 8    |    Yellow/ Gray    |  20  |                                                      |
+|   H   |    IGN 5    |    Yellow/ Brown   |  20  |                                                      |
 |   J   |  Signal GND |    Black/ White    |  16  |                                                      |
 |   K   |     N/C     |                    |  16  |                                                      |
 |   L   |  Relay 12v  |     Red/ White     |  16  |                                                      |
@@ -23,20 +23,20 @@ Two 12 pin Deutsch Connectors
 
 ### Wideband Connector
 
-| Pin # |  Description |     Color    | Size | Note |
-|:-----:|:------------:|:------------:|:----:|:----:|
-|   A   |   WB1 Comm   |    Yellow    |  20  |      |
-|   B   |   WB1 Pump   |  Red/ White  |  20  |      |
-|   C   |      N/C     |              |  20  |      |
-|   D   |   WB2 Cell   | Black/ White |  20  |      |
-|   E   |   WB2 Comm   |    Yellow    |  20  |      |
-|   F   |   WB2 Pump   |  Red/ White  |  20  |      |
-|   G   |      N/C     |              |  20  |      |
-|   H   |   WB1 Cell   | Black/ White |  20  |      |
-|   J   | WB1 Heater + |     Grey     |  16  |      |
-|   K   | WB1 Heater - |     White    |  16  |      |
-|   L   | WB2 Heater + |     Grey     |  16  |      |
-|   M   | WB2 Heater - |     White    |  16  | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
+| Pin # |   Description   |     Color    | Size |                                          Note                                         |
+|:-----:|:---------------:|:------------:|:----:|:-------------------------------------------------------------------------------------:|
+|   A   |     WB1 Comm    |    Yellow    |  20  |                                                                                       |
+|   B   |     WB1 Pump    |  Red/ White  |  20  |                                                                                       |
+|   C   |       N/C       |              |  20  |                                                                                       |
+|   D   |     WB2 Cell    | Black/ White |  20  |                                                                                       |
+|   E   |     WB2 Comm    |    Yellow    |  20  |                                                                                       |
+|   F   |     WB2 Pump    |  Red/ White  |  20  |                                                                                       |
+|   G   |     WB1 Cell    | Black/ White |  20  |                                                                                       |
+|   H   |   WB1 Heater +  |     Grey     |  20  |                                                                                       |
+|   J   | Fuel Pump Prime |     Red?     |  16  |                                                                                       |
+|   K   |   WB1 Heater -  |     White    |  16  |                                                                                       |
+|   L   |   WB2 Heater +  |     Grey     |  16  |                                                                                       | 
+|   M   |   WB2 Heater -  |     White    |  16  |&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
 
 ## Main Harness
 
@@ -51,9 +51,9 @@ One 41 Pin Deutsch Connector
 |   E   |       Crank -      |        Green       |  20  |      |
 |   F   |        Cam +       |       Yellow       |  20  |      |
 |   G   |        Cam -       |        Green       |  20  |      |
-|   H   |   Trans Brake GND  |         ???        |  20  |      |
-|   J   |   Trans Brake 12v  |         ???        |  20  |      |
-|   K   | Trans Brake Signal |         ???        |  20  |      |
+|   H   |   N/C              |                    |  20  |      |
+|   J   |   N/C              |                    |  20  |      |
+|   K   | Trans Brake Signal |        Blue        |  20  |      |
 |   L   |       Map +5v      |       Orange       |  20  |      |
 |   M   |       Map GND      |    Black/ White    |  20  |      |
 |   N   |     Map Signal     |       Yellow       |  20  |      |
@@ -85,3 +85,14 @@ One 41 Pin Deutsch Connector
 |   r   |       INJ 15       |  Light Blue/ Green |  16  |      |
 |   s   |       INJ 16       | Light Blue/ Violet |  16  |      |
 |   t   |  Starter Solenoid  |       Gray         |  16  | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
+
+| Relay # |   Description   | Haltech Connection |
+|:-------:|:---------------:|:------------------:|
+|  SSR 1  |       Ign       |        N/C         |
+|  SSR 2  |     Starter     |        N/C         |
+|  SSR 3  |     Data Arm    |       AVI 6        |
+|  SSR 4  | Fuel Pump Prime |        N/C         |
+|  SSR 5  |      Lights     |        N/C         |
+|  SSR 6  |   Trans Brake   |        N/C         |
+|  SSR 7  |       N/C       |        N/C         |
+|  SSR 8  |       N/C       |        N/C         |
