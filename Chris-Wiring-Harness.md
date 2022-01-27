@@ -44,27 +44,27 @@ One 41 Pin Deutsch Connector
 
 | Pin # |     Description    |        Color       | Size | Note |
 |:-----:|:------------------:|:------------------:|:----:|:----:|
-|   A   |       TPS +5v      |       Orange       |  20  |      |
-|   B   |       TPS GND      |    Black/ White    |  20  |      |
-|   C   |     TPS Signal     |        White       |  20  |      |
-|   D   |       Crank +      |       Yellow       |  20  |      |
-|   E   |       Crank -      |        Green       |  20  |      |
-|   F   |        Cam +       |       Yellow       |  20  |      |
-|   G   |        Cam -       |        Green       |  20  |      |
+|   A   |       TPS +5v      |    Orange & Red    |  20  |  Orange on cabin side. Red on engine side   |
+|   B   |       TPS GND      |Black/ White & Black|  20  |  Black/ White on cabin side. Black on engine side    |
+|   C   |     TPS Signal     |White & Gray/ Yellow|  20  |  White on cabin side. Gray/ Yellow on engine side    |
+|   D   |       Crank +      |     Yellow & Red   |  20  |  Yellow on cabin side. Red on engine side    |
+|   E   |       Crank -      |      Green & Black |  20  |  Green on cabin side. Black on engine side    |
+|   F   |        Cam +       |      Yellow & Red  |  20  |  Yellow on cabin side. Red on engine side    |
+|   G   |        Cam -       |      Green & Black |  20  |  Green on cabin side. Black on engine side    |
 |   H   |   N/C              |                    |  20  |      |
 |   J   |   N/C              |                    |  20  |      |
-|   K   | Trans Brake Signal |        Blue        |  20  |      |
-|   L   |       Map +5v      |       Orange       |  20  |      |
-|   M   |       Map GND      |    Black/ White    |  20  |      |
-|   N   |     Map Signal     |       Yellow       |  20  |      |
-|   P   |       IAT GND      |    Black/ White    |  20  |      |
-|   R   |     IAT Signal     |     Light Gray     |  20  |      |
-|   S   |       Oil +5v      |       Orange       |  20  |      |
-|   T   |       Oil GND      |    Black/ White    |  20  |      |
-|   U   |     Oil Signal     |   Orange/ Yellow   |  20  |      |
-|   V   |      Fuel +5v      |       Orange       |  20  |      |
-|   W   |      Fuel GND      |    Black/ White    |  20  |      |
-|   X   |     Fuel Signal    |     Orange/Red     |  20  |      |
+|   K   |      Trans Brake   |      Blue &        |  20  |      |
+|   L   |       Map +5v      |       Orange & Red |  20  | Orange on cabin side. Red on engine side     |
+|   M   |       Map GND      |Black/ White & Black|  20  | Black/White on cabin side. Black on engine side     |
+|   N   |     Map Signal     | Yellow & Gray/ Pink|  20  | Yellow on cabin side. Gray/ Pink on engine side    |
+|   P   |       IAT GND      |Black/ White & Black|  20  | Black/ White on cabin side. Black on engine side     |
+|   R   |     IAT Signal     |  Light Gray & Pink |  20  | Light Gray on cabin side. Pink on engine side     |
+|   S   |       Oil +5v      |       Orange & Red |  20  | Orange on cabin side. Red on engine side     |
+|   T   |       Oil GND      |Black/ White & Black|  20  | Black/White on cabin side. Black on engine side     |
+|   U   |     Oil Signal     |Orange/ Yellow & Purple/Black|  20  | Orange/Yellow on cabin side. Purple/ Black on engine side     |
+|   V   |      Fuel +5v      |       Orange & Red |  20  | Orange on cabin side. Red on engine side     |
+|   W   |      Fuel GND      |Black/ White & Black|  20  | Black/White on cabin side. Black on engine side     |
+|   X   |     Fuel Signal    |     Orange/Red & Light Green/Black     |  20  | Orange/Red on cabin side. Light Green/ Black on engine side     |
 |   Y   |         N/C        |                    |  20  |      |
 |   Z   |     INJ 1-8 12v    |   Red/ Light Blue  |  16  |      |
 |   a   |    INJ 9-16 12v    |   Red/ Light Blue  |  16  |      |
@@ -84,7 +84,9 @@ One 41 Pin Deutsch Connector
 |   q   |       INJ 14       | Light Blue/ Yellow |  16  |      |
 |   r   |       INJ 15       |  Light Blue/ Green |  16  |      |
 |   s   |       INJ 16       | Light Blue/ Violet |  16  |      |
-|   t   |  Starter Solenoid  |       Gray         |  16  | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
+|   t   |  Starter Solenoid  |      Gray & Red    |  16  | Gray on cabin side, red on engine side; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
+
+# Speedwire SSR Board
 
 | Relay # |   Description   | Haltech Connection |
 |:-------:|:---------------:|:------------------:|
@@ -93,6 +95,39 @@ One 41 Pin Deutsch Connector
 |  SSR 3  |     Data Arm    |       AVI 6        |
 |  SSR 4  | Fuel Pump Prime |        N/C         |
 |  SSR 5  |      Lights     |        N/C         |
-|  SSR 6  |   Trans Brake   |        N/C         |
+|  SSR 6  |   Trans Brake   |       SPI 2        |
 |  SSR 7  |       N/C       |        N/C         |
 |  SSR 8  |       N/C       |        N/C         |
+
+
+# Misc.
+
+DPO3 - Shifter Solenoid
+
+Step P1 - Chute Handle
+
+
+## Spare REM input sensor
+
+Yellow Wire - REM AVI 10 ????
+
+Violet Wire - REM AVI 8 ????
+
+
+Driver has longer heat shrink
+
+Green/ Red - Red - Yellow - Drivers sensor
+
+Green - White - Purple - Pass Sensor
+
+REM AVI 7 - All Grey
+
+## REM Inputs GPS
+
+Green - 5v
+
+Long Blue/Violet - GND
+
+Yellow - B13 - AVI 1
+
+Short Blue/ Violet REM Avi 7
